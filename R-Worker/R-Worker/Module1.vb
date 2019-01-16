@@ -49,7 +49,7 @@ Module Module1
 
         Console.Beep()
 
-        StartWorkers()
+        CheckStatus_thread.Start()
 
     End Sub
 
