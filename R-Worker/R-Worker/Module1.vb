@@ -68,6 +68,7 @@ Module Module1
     End Sub
 
     Function StartWorkers()
+        sleep(15000)
         For i As Integer = 1 To Settings.Cores
             Dim rCluster As New ProcessStartInfo
             rCluster.FileName = "Rscript"
